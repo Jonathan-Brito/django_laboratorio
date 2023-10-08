@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "usuarios",
     "exames",
-    "python manage.py startapp empresarial",
+    "empresarial",
 ]
 
 MIDDLEWARE = [
