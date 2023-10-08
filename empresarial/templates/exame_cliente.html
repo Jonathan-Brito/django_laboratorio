@@ -46,7 +46,8 @@
 
                 <input type="submit" value="Salvar" class="btn-default">
                 </form>
-                <a style="text-decoration: none;" href="" class="btn-secundario">Gerar senha</a>
+                <a style="text-decoration: none;" href="{% url 'gerar_senha' exame.id %}" class="btn-secundario">Gerar senha</a>
+                
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
             <script>
